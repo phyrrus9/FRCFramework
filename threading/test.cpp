@@ -11,7 +11,7 @@ class test_thread : public thread
 		lcd->Printf(DriverStationLCD::kUserLine1, "Hello from thread %d!" _1);
 		lcd->UpdateLCD();
 	}
-}
+};
 
 class robot : public SimpleRobot
 {
